@@ -13,3 +13,20 @@ To effectively train our algorithm, we judiciously split our dataset into three 
 A critical step in our process was hyperparameter tuning, where we carefully selected values to optimize our model's effectiveness. We employed a - `batch_size = 32`, which determined the number of images processed at once during training. A learning rate `lr = 1e-4` guided the step size our model took while learning, optimizing the training process. Due to limited computational resources, we conducted training for a single epoch `num_epochs = 1` – an iteration through the entire dataset.
 
 This tailored approach, though constrained by computational availability, effectively allowed us to leverage the power of deep learning within our project. By harnessing UNET, splitting our dataset strategically, and fine-tuning hyperparameters, we strived to maximize our model's accuracy and predictive prowess. The outcome of these concerted efforts is a poised and well-equipped algorithm that holds promise for unraveling the mysteries concealed within the intricate structures of the human brain.
+
+## Results
+
+
+
+
+
+
+
+
+## Repository Structure
+
+- `data/`: Directory containing the 2D images and mask text files.
+- `YOLOv8/`: Cloned YOLOv8 repository from Ultralytics for object detection.
+- `train.py`: Script for training the YOLOv8 model.
+- `predict.py`: Script for using the trained model to make predictions.
+- `visualize.py`: Script for visualizing the original images and predictions.
