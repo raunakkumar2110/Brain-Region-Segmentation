@@ -26,8 +26,8 @@ The observed lower accuracy in the preliminary outcomes can be attributed to the
 #### Testing
 Following the training phase, the subsequent crucial step involves testing. In this testing phase, we employed a set of 3,508 original images. The evaluation of our model on this test set yielded the following metrics:
 
-Accuracy (acc): 0.03
-F1 Score (f1): 1
+`Accuracy (acc): 0.97`
+
 
 ## Repository Structure TELL WHAT TO RUN
 
@@ -37,3 +37,4 @@ F1 Score (f1): 1
 - `test.py`: Script for using the trained model to make predictions.
   Note: By default, the provided code is set up to make predictions for a single image. To test with additional images, users should make necessary adjustments accordingly. This will allow for testing multiple images and obtaining predictions for each.`
 
+### To download Model Click Here : - https://drive.google.com/drive/folders/1JooyfsVdQfauBOpQB4B8cY_CqGbjrjp8?usp=sharing
