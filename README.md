@@ -27,8 +27,10 @@ Following the training phase, the subsequent crucial step involves testing. In t
 
 -`To see the testing results go to results folder.`
 <br>
--`To check the Training data Metrics (files/score.csv) Click Here -- >` https://github.com/raunakkumar2110/Brain-Region-Segmentation/blob/main/files/score.csv
-<be>
+-`Note: - As there were 3508 images we have tested the model on, so we have just kept some predicted folders in the repository.`
+<br>
+-`To check the Testing data Metrics (files/score.csv) Click Here -- >` https://github.com/raunakkumar2110/Brain-Region-Segmentation/blob/main/files/score.csv
+<br>
 ##### To Test the model There should be an input image (2D) and also its corresponding Mask image to be passed so that at the end it will show the output in the result folder with the specific file name`
 
 ## Repository Structure 
