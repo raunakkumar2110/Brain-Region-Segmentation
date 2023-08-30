@@ -17,17 +17,17 @@ This tailored approach, though constrained by computational availability, effect
 ## Results
 #### Training
 During the training process, we utilized a dataset consisting of `28,059` original images paired with an equal number of corresponding mask images. In order to assess the performance of our model, we conducted validation using a separate set of 3,508 original images along with their respective mask images. After it Following metrics we have achieved:-
-`dice_coef: 0.271194845`
-`loss: 0.7287`
-`precision: 0.308`
+<br>
+-`To check the Training data Metrics (files/data.csv) Click Here -- >` https://github.com/raunakkumar2110/Brain-Region-Segmentation/blob/main/files/data.csv
 
 The observed lower accuracy in the preliminary outcomes can be attributed to the model undergoing `training for just a single epoch.` This short training duration has constrained the model's ability to fully capture the complexities present within the data. However, there is a positive aspect to consider. Expanding the training process across multiple epochs holds the potential for a notable enhancement in accuracy. This prolonged training period would provide the model with a better opportunity to discern the nuanced relationships within the data, subsequently leading to a more adept prediction of masks for the original images. `It's also worth noting that computational resources, an integral factor in training effectiveness, could have contributed to the limited initial accuracy.`
 
 #### Testing
 Following the training phase, the subsequent crucial step involves testing. In this testing phase, we employed a set of 3,508 original images. The evaluation of our model on this test set yielded the following metrics:
 
-`Accuracy (acc): 0.97`
- ### To see the testing results go to Results folder.
+-`To see the testing results go to results folder.`
+<br>
+-`To check the Training data Metrics (files/score.csv) Click Here -- >` https://github.com/raunakkumar2110/Brain-Region-Segmentation/blob/main/files/score.csv
 
 ## Repository Structure 
 
@@ -35,6 +35,6 @@ Following the training phase, the subsequent crucial step involves testing. In t
 - `model.py`: Contains the UNET Model Coded Architecture.
 - `train.py`: Script for training the UNET model.
 - `test.py`: Script for using the trained model to make predictions.
-  Note: By default, the provided code is set up to make predictions for a single image. To test with additional images, users should make necessary adjustments accordingly. This will allow for testing multiple images and obtaining predictions for each.`
+`Note: By default, the provided code is set up to make predictions for Multiple images at once. To test with a single image, users should make necessary adjustments accordingly. Run test.py to test the model.`
 
 ### To download Model Click Here : - https://drive.google.com/drive/folders/1JooyfsVdQfauBOpQB4B8cY_CqGbjrjp8?usp=sharing
