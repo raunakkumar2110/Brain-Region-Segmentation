@@ -33,12 +33,16 @@ Following the training phase, the subsequent crucial step involves testing. In t
 <br>
 ##### To Test the model There should be an input image (2D) and also its corresponding Mask image to be passed so that at the end it will show the output in the result folder with the specific file name`
 
+#### Prediction
+`For prediction you need to run the pred.py file and give the path of an Brain 2D Image and also change the path acc to your system.`
+
 ## Repository Structure 
 
 - `metrics.py`: Contains Functions of metrics for UNET Model.
 - `model.py`: Contains the UNET Model Coded Architecture.
 - `train.py`: Script for training the UNET model.
-- `test.py`: Script for using the trained model to make predictions.
-`Note: By default, the provided code is set up to make predictions for Multiple images at once. To test with a single image, users should make necessary adjustments accordingly. Run test.py to test the model.`
+- `test.py`: Script for using the trained model to Test.-`The provided code is set up to make predictions for Multiple images at once.`
+- `pred.py`: Script for using the trained model to make predictions.
+
 
 ### To download Model Click Here : - https://drive.google.com/drive/folders/1JooyfsVdQfauBOpQB4B8cY_CqGbjrjp8?usp=sharing
