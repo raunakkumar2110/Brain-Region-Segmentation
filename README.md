@@ -29,7 +29,7 @@ Following the training phase, the subsequent crucial step involves testing. In t
 `Accuracy (acc): 0.97`
  ### To see the testing results go to Results folder.
 
-## Repository Structure TELL WHAT TO RUN
+## Repository Structure 
 
 - `metrics.py`: Contains Functions of metrics for UNET Model.
 - `model.py`: Contains the UNET Model Coded Architecture.
