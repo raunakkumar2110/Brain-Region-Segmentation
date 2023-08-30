@@ -27,7 +27,7 @@ The observed lower accuracy in the preliminary outcomes can be attributed to the
 Following the training phase, the subsequent crucial step involves testing. In this testing phase, we employed a set of 3,508 original images. The evaluation of our model on this test set yielded the following metrics:
 
 `Accuracy (acc): 0.97`
-
+ ### To see the testing results go to Results folder.
 
 ## Repository Structure TELL WHAT TO RUN
 
